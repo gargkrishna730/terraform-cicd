@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - '.github/workflows/**'
   pull_request:
     branches:
       - master
+    paths-ignore:
+      - '.github/workflows/**'
 
 permissions:
   contents: read
