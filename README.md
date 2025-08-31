@@ -65,9 +65,20 @@ To set these up:
    ```
 
 6. To destroy the infrastructure:
+
+   **Local Destruction:**
    ```bash
    terraform destroy
    ```
+
+   **CI/CD Destruction:**
+   1. Go to Actions tab in the repository
+   2. Select "Terraform Destroy" workflow
+   3. Click "Run workflow"
+   4. Select environment and provide reason for destruction
+   5. Submit the workflow
+   6. Appropriate reviewers will be notified for approval
+   7. After approval and wait timer, destruction will proceed
 
 ## Important Notes
 
