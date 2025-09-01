@@ -85,4 +85,3 @@ To set these up:
 - The EC2 instance is created with a t2.micro instance type (free tier eligible)
 - The security group allows SSH access from anywhere (0.0.0.0/0) - modify for production use
 - Remember to destroy resources when not needed to avoid unnecessary charges
-
